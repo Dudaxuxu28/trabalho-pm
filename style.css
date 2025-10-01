@@ -1,26 +1,51 @@
-/* Banner */
-.banner {
-    background: #A3A381; /* Olive Petal */
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
-}
-
-.banner h1 {
+body {
     margin: 0;
-    font-size: 2.5rem;
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    line-height: 1.6;
 }
 
-/* Seções */
-.secao {
-    padding: 80px 20px;
-    text-align: center;
-    font-size: 1.8rem;
+header.banner {
+    background-color: #FCC5FE;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
+    text-align: center;
 }
 
-/* Seções com cores diferentes */
-#sec1 { background: #D8A48F; } /* Rose Blush */
-#sec2 { background: #BB8588; } /* Peach Blossom */
-#sec3 { background: #EFEBCE; color: black; } /* Artic Daisy */
-#sec4 { background: #D7CE93; color: black; } /* Golden Clover */
+header.banner h1 {
+    margin: 0;
+    padding: 20px;
+}
+
+.secao {
+    padding: 40px;
+    text-align: center;
+    background: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.secao h2 {
+    color: #EF82DB;
+}
+
+button {
+    background: #EF82DB;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #d66bc2;
+        }
+    
